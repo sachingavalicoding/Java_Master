@@ -22,19 +22,23 @@ System.out.println("Hello world " );
         // int rem = 10 % 2 ; //0 
         // int rem2 =  10 / 2 ; // 5
         
-        int num = 2;
-        int num2 = 40;
-        
-        System.out.println(" Num  = " + num);// 2
-        System.out.println(" Num  = " + ++num);// 3 
-        System.out.println(" Num  = " + num);// 3 
-        System.out.println(" Num  = " + num++);// 3 
-        System.out.println(" Num  = " + num);// 3 
-        System.out.println(" Num  = " + num--);// 3 
-        System.out.println(" Num  = " + num);// 3 
-        System.out.println(" Num  = " + num--);// 3 
-        System.out.println(" Num  = " + num);// 2 
+        // int num = 2;
+        // int num2 = 40;
+        // int sum = 0;
+        // sum = sum + num; // 0 + 20 
+        // System.out.println(" Num  = " + num);// 2
+        // System.out.println(" Num  = " + ++num);// 3 
+        // System.out.println(" Num  = " + num);// 3 
+        // System.out.println(" Num  = " + num++);// 3 
+        // System.out.println(" Num  = " + num);// 3 
+        // System.out.println(" Num  = " + num--);// 3 
+        // System.out.println(" Num  = " + num);// 3 
+        // System.out.println(" Num  = " + num--);// 3 
+        // System.out.println(" Num  = " + num);// 2 
 
         // System.out.println(" Num  = " + num);// 12 
+
+        int a = 10;
+        b = toString(a);
     }
 }

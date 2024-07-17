@@ -2,11 +2,10 @@
 public class PrintDigit {
 
     public static void main(String[] args) {
-        int n = 123;
+        int n = 512;
         int rem;
         while (n > 0) {
-            rem = n % 10;
-            n = n / 10;
+            rem = n % 10; // 2 // 1
             switch (rem) {
                 case 0 -> System.out.print( " " + " Zero");
                 case 1 -> System.out.print( " " + " One");
@@ -21,6 +20,7 @@ public class PrintDigit {
                 default -> {
                 }
             }
+            n = n / 10;
 
         }
     }
